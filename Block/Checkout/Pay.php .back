@@ -86,7 +86,7 @@ class Pay extends Template
             'address' => $this->getAddressData($orderAddress),
             'metadata' => $this->getMetaData($order),
             'showCloseButton' => true,
-            'paymentNotificationUrl' => $this->getUrl('pledg/checkout/ipn', [
+            'paymentNotificationUrl' => $this->getUrl('django/checkout/ipn', [
                 '_secure' => true,
                 'ipn_store_id' => $order->getStoreId(),
                 'pledg_method' => $order->getPayment()->getMethod(),

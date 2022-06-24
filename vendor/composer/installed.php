@@ -3,7 +3,7 @@
         'name' => 'django/module-django-payment-gateway',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'ad282a7205b4bd2b52653939bb75dc9dbffa8af8',
+        'reference' => 'df414402dde9022bc19d2215ba547dae2b1810de',
         'type' => 'magento2-module',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'django/module-django-payment-gateway' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'ad282a7205b4bd2b52653939bb75dc9dbffa8af8',
+            'reference' => 'df414402dde9022bc19d2215ba547dae2b1810de',
             'type' => 'magento2-module',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

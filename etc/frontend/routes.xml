@@ -1,6 +1,6 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="standard">
-        <route id="pledg" frontName="pledg">
+        <route id="pledg" frontName="django">
             <module name="Pledg_PledgPaymentGateway" />
         </route>
     </router>
